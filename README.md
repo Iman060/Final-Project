@@ -103,21 +103,6 @@ Supabase → User authentication and role management
 
 Custom Backend API → Products, categories, brands, cart, image upload
 
-📂 Project Structure
-src
- ┣ components
- ┃ ┣ admin (Add/Edit Brand, Category, Product, Sidebar)
- ┃ ┣ ui (shared UI: Header, Footer, Modal, SaleSection, etc.)
- ┃ ┣ user (HomePage, All, Checkout, Wishlist, Details, etc.)
- ┃ ┗ layouts (AdminLayout, UserLayout)
- ┣ pages
- ┃ ┣ admin (Brand, Category, Products, Login)
- ┃ ┗ user (Account, Cart, CategoryPage, Register, etc.)
- ┣ router (Auth, route.jsx setup)
- ┣ store (API.js, store.js)
- ┣ index.css
- ┣ main.jsx
- ┗ vite.config.js
 
  📌 Notes
 
