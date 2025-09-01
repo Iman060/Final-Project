@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+.inter-Puma {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.xs\:w-full {
+    @media (width >= 22rem /* 350px */) {
+        width: 100%;
+    }
+}
+
