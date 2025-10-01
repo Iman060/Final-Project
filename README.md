@@ -1,4 +1,4 @@
-<img width="1233" height="736" alt="Home" src="https://github.com/user-attachments/assets/a1e45251-a5b2-419a-b43c-9e5ed3adf903" /># 🐆 Puma E-Commerce Clone
+# 🐆 Puma E-Commerce Clone
 
 This is a frontend single-page e-commerce app built with React + Vite and a custom backend (provided by my mentor).
 The project replicates Puma’s official store for educational purposes only.
@@ -110,6 +110,7 @@ Admin features
 🎓 For educational purposes only.
 
 Examples:
+<img width="1233" height="736" alt="Home" src="https://github.com/user-attachments/assets/a1e45251-a5b2-419a-b43c-9e5ed3adf903" />
 <img width="2468" height="1482" alt="image" src="https://github.com/user-attachments/assets/d2e14ff2-23c6-4a02-a820-1f7a9610e900" />
 <img width="2461" height="1530" alt="image" src="https://github.com/user-attachments/assets/3dc2e943-f919-4544-bffd-379aea16a023" />
 <img width="2473" height="1534" alt="image" src="https://github.com/user-attachments/assets/0f0c5dd9-5907-4dc1-ab62-1e80c20f62b3" />
