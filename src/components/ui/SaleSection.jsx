@@ -1,6 +1,6 @@
 import { Link } from "react-router"
 
-const SaleSection = () => {
+const  SaleSection = () => {
 
     const saleLinks = [
         { text: "SHOP MEN", gender:"men" },

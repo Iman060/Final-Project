@@ -22,7 +22,7 @@ const AdminLayout = () => {
                             <div className="flex items-center space-x-4">
                                 <div className="hidden sm:block">
                                     <span className="text-sm text-gray-100">
-                                        Welcome back, Iman Mellim
+                                        Welcome back, Iman 
                                     </span>
                                 </div>
                                 <div className="w-8 h-8 flex justify-center items-center bg-gray-300 rounded-full"><FaRegUser /></div>
