@@ -1,28 +1,18 @@
-🐆 Puma E-Commerce Clone
+# 🐆 Puma E-Commerce Clone
 
+This is a frontend single-page e-commerce app built with React + Vite and a custom backend (provided by my mentor).
+The project replicates Puma’s official store for educational purposes only.
 
-
-This is a frontend single page e-commerce app built with React + Vite and a backend (provided by my mentor).
-The project replicates Puma’s official store for educational purposes.
-
-It includes:
-
-🔑 Authentication with Supabase (role-based: user / admin)
-
-🛒 User Side → Browse categories, filter products, wishlist, cart, checkout
-
-⚙️ Admin Side → Manage brands, categories, products, upload images
-
-✨ Features
+## ✨ Features
 👤 User Side
 
 Home Page (/) → Landing page with featured products
 
-Category Page (/categorypage?gender=women) → Shows categories filtered by gender (e.g., Women, Men, Kids)
+Category Page (/categorypage?gender=women) → Browse categories filtered by gender (Women, Men, Kids)
 
-Subcategory (/all) → Displays products by subcategory (Shoes, Accessories, etc.) with filters
+Subcategory Page (/all) → View products by subcategory (Shoes, Accessories, etc.) with filters
 
-Details (/details/:slug) → Product details with Add to Cart + Add to Wishlist
+Details Page (/details/:slug) → Product details + Add to Cart + Add to Wishlist
 
 Wishlist (/wishlist) → Manage liked products
 
@@ -30,7 +20,9 @@ Cart (/cart) → Backend-powered shopping basket
 
 Checkout (/checkout) → Secure checkout process
 
-Auth → Login / Register with backend
+Authentication
+
+Login / Register with backend
 
 Must log in before adding to cart
 
@@ -38,9 +30,9 @@ If no account → redirected to Register
 
 🔐 Admin Side
 
-Access Control: Auth checks if Supabase role is admin → grants access
+Access Control → Supabase role check (only admins allowed)
 
-Dashboard (/admin) → With protected routes
+Dashboard (/admin) → Protected routes
 
 Brand Management → Add, edit, delete brands
 
@@ -48,7 +40,7 @@ Category Management → Add, edit, delete categories
 
 Product Management → Add, edit, delete products
 
-Image Upload (via backend API):
+Image Upload → Via backend API
 
 uploadImage: builder.mutation({
   query: (formData) => ({
@@ -58,7 +50,7 @@ uploadImage: builder.mutation({
   }),
 }),
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Core
 
 React 19.1.0 → UI library for building SPA
@@ -73,9 +65,9 @@ Protected Routes → Auth.jsx handles role-based redirection
 
 State Management & API
 
-Redux Toolkit 2.8.2 → State management
+Redux Toolkit 2.8.2 → Global state management
 
-RTK Query → For API integration (API.js, store.js)
+RTK Query → API integration (API.js, store.js)
 
 Styling
 
@@ -89,40 +81,30 @@ React Icons 5.5.0 → Icon packs
 
 Lucide React 0.525.0 → Modern icons
 
-SweetAlert2 11.22.2 → Nice alert popups
+SweetAlert2 11.22.2 → Elegant alert popups
 
 React Toastify 11.0.5 → Toast notifications
 
 Forms
 
-React Hook Form 7.61.1 → Form validation and management
+React Hook Form 7.61.1 → Form validation & management
 
 Backend & Auth
 
-Supabase → User authentication and role management
+Supabase → Authentication + Role management
 
 Custom Backend API → Products, categories, brands, cart, image upload
 
-📂 Project Structure
-src
- ┣ components
- ┃ ┣ admin (Add/Edit Brand, Category, Product, Sidebar)
- ┃ ┣ ui (shared UI: Header, Footer, Modal, SaleSection, etc.)
- ┃ ┣ user (HomePage, All, Checkout, Wishlist, Details, etc.)
- ┃ ┗ layouts (AdminLayout, UserLayout)
- ┣ pages
- ┃ ┣ admin (Brand, Category, Products, Login)
- ┃ ┗ user (Account, Cart, CategoryPage, Register, etc.)
- ┣ router (Auth, route.jsx setup)
- ┣ store (API.js, store.js)
- ┣ index.css
- ┣ main.jsx
- ┗ vite.config.js
+## 📌 Notes
 
- 📌 Notes
+🚫 This project is not affiliated with Puma.
 
-This project is for educational purposes only.
+📦 Backend must be running for:
 
-It is not affiliated with Puma.
+Cart
 
-Backend must be running for cart, checkout, and admin features.
+Checkout
+
+Admin features
+
+🎓 For educational purposes only.
